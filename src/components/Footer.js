@@ -6,7 +6,9 @@ const Footer = () => {
     <div className="footer">
       <h5>
         2021 © This site was built by{" "}
-        <Link className='devlink' to="cjmccaskill.dev">CJ McCaskill</Link>
+        <a href="https://www.cjmccaskill.dev" className="devlink">
+          CJ McCaskill
+        </a>
       </h5>
     </div>
   );
