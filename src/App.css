@@ -14,9 +14,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  font-size: 1.5em;
+  font-size: 1.2em;
   background: white;
-  /* padding-bottom: 0; */
   border-bottom: 3px solid #000;
 }
 
@@ -48,4 +47,30 @@ body {
 
 .devlink:hover {
   font-size: 1.1em;
+}
+
+/* POKEMON Container Styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* List of POKEMON Styles*/
+.eachPokemon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 3em;
+  text-transform: uppercase;
+}
+
+.eachPokemon div {
+  margin-left: 0.5em;
+}
+
+.eachPokemon img {
+  margin-left: 9em;
 }

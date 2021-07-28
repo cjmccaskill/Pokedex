@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   return (
     <div className="header">
-      <Link to="/home">
+      <Link to="/main">
         <h1>Pokédex</h1>
       </Link>
       <a href="https://www.pokemon.com/us/">
