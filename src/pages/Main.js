@@ -29,7 +29,7 @@ const Main = (props) => {
               setCurrentPokemon(data);
             };
             return (
-              <a href={<OnePokemon currentPokemon={currentPokemon} />}>
+              <button>
                 <div className="eachPokemon" onClick={grabSingle}>
                   <div>{name}</div>
                   <img
@@ -38,11 +38,11 @@ const Main = (props) => {
                     alt="pokeball"
                   />
                 </div>
-              </a>
+              </button>
             );
           })}
         </div>
-        <OnePokemon />
+        <OnePokemon currentPokemon={currentPokemon} />
       </div>
     );
   };

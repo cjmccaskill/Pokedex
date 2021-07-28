@@ -56,14 +56,20 @@ body {
 }
 
 /* List of POKEMON Styles*/
+
+.pokemonList {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-left: 3em;
+  margin-top: 1em;
+}
 .eachPokemon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
-  border: 1px solid black;
-  border-radius: 8px;
-  margin-left: 3em;
   text-transform: uppercase;
 }
 
@@ -73,4 +79,53 @@ body {
 
 .eachPokemon img {
   margin-left: 9em;
+}
+
+/* OnePokemon Card */
+.placeHolderCard {
+  margin-top: 3em;
+  margin-right: 3em;
+  color: white;
+  font-size: 1.3em;
+}
+
+.placeHolderCard span {
+  font-size: 1.5em;
+  /* text-transform: uppercase; */
+}
+
+.card {
+  box-sizing: border-box;
+  background: rgb(206, 202, 202);
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-right: 2em;
+  border: 10px solid rgba(252, 227, 0, 0.726);
+  border-radius: 2px;
+  box-shadow: 12px 12px 10px rgba(3, 3, 3, 0.603);
+}
+
+.spriteAndName {
+  border: 2px solid rgba(0, 0, 0, 0.514);
+  border-radius: 5px;
+  background: white;
+}
+
+.spriteAndName h3 {
+  text-transform: uppercase;
+  padding-left: 0.4em;
+  margin-bottom: 0.3em;
+}
+
+.cardButton {
+  height: 2em;
+  margin-left: 2.7em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+.cardButton:hover {
+  background: red;
+  color: white;
+  border: 2px solid rgba(156, 0, 0, 0.61);
+  border-radius: 2px;
 }
