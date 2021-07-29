@@ -24,22 +24,13 @@ const Main = (props) => {
         pokemonList={props.pokemonList}
         selectPokemon={selectPokemon}
       />
-      <OnePokemon selected={selected} handleClick={props.addToTeam} label='Capture Pokemon'/>
+      <OnePokemon
+        selected={selected}
+        handleClick={props.addToTeam}
+        label="Capture Pokemon"
+      />
     </div>
   );
 };
 
 export default Main;
-
-// {/* <div className="pokemon-list">
-//     <button className="select-pokemon">
-//         <div className="each-pokemon" onClick={grabSelected}>
-//             <div>{name}</div>
-//             <img
-//             className="pokeball"
-//             src="https://rawcdn.githack.com/jkeohan/pokedex/5f567555602a7702380260e0fa5f300a3e083b26/src/closed-pokeball-color.png"
-//             alt="pokeball"
-//             />
-//         </div>
-//     </button>
-// </div> */}

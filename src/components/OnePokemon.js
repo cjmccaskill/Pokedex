@@ -39,23 +39,4 @@ const OnePokemon = (props) => {
 
   return props.selected ? loaded() : loading();
 };
-
-//      else {
-//     return (
-//       <div className="placeholder-card">
-//         Please select a <span>Pokémon</span> from the list.
-//       </div>
-//     );
-//   }
-// };
 export default OnePokemon;
-
-// <div>
-//   <h1>{props.selected.name}</h1>
-//   <img src={props.selected.img} alt={props.selected.name} />
-//   <h2> TYPE {props.selected.type}</h2>
-//   <button onClick={() => props.handleClick(props.selected)}>
-//     {props.label}
-//   </button>
-// </div>
-// const { name, sprites, height, weight, types } = props.selected;
